@@ -1,0 +1,5 @@
+# dependencies
+node_modules
+src/component
+.DS_Store
+npm-debug.log
