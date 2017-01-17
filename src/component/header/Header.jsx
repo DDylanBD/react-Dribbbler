@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import HeaderTop from './/HeaderTop.jsx';
-import HeaderMiddle from './/HeaderMiddle.jsx';
-import HeaderBottom from './/HeaderBottom.jsx';
+import HeaderTop from './componentHeader/HeaderTop.jsx';
+import HeaderMiddle from './componentHeader/HeaderMiddle.jsx';
+import HeaderBottom from './componentHeader/HeaderBottom.jsx';
 
 class Header extends Component{
   render() {

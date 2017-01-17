@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ContainerInfor from './ContainerInfor.jsx';
+import Button from './button/Button.jsx';
 import './Container.css';
 
 class Container extends Component {
@@ -43,6 +44,7 @@ class Container extends Component {
                     {/************ GRID3 ****************/}
                     <ContainerInfor infor1='5306' infor2="21" infor3="321" inforImg='Nur Praditya Wibisono' titreDescription='Travel' description='Hey Guys,
                     Day 13# Just keeping the momentum going by sharing more work/projects. Type used in this is Miller Display Light and Gill Sans. Cheers...' img='https://d13yacurqjgara.cloudfront.net/users/139604/screenshots/3216257/travel_teaser.jpg' imgModal='https://d13yacurqjgara.cloudfront.net/users/139604/screenshots/3216257/travel_teaser.jpg' imgIcon='https://d13yacurqjgara.cloudfront.net/users/656195/avatars/mini/8f8fabb9e45d0545acc426fdb60afac7.jpg?1471410765' miniImgModal='https://d13yacurqjgara.cloudfront.net/users/139604/avatars/small/521b21d99da05ae21dc9705dadb9c981.jpg?1478678779' h1Modal='Travel' h3Modal='by Nguyen Le on Jan 14, 2017 '/>
+                    <Button />
                 </div>
             </div>
         );

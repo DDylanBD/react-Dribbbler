@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import './Header.css';
-import Dropdown from './dropdown/Dropdown.jsx';
+import '../Header.css';
+import Dropdown from '../dropdown/Dropdown.jsx';
 
 class HeaderBottom extends Component {
     render() {

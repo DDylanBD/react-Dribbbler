@@ -1,0 +1,25 @@
+.menu {
+    display: none;
+}
+
+@media screen and (max-width: 857px) {
+    .menu {
+        display: block;
+        width: 33%;
+    }
+    .MenuResponsive {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 857px) {
+    .navigation, .none {
+        display: none;
+    }
+    .contImage {
+        width: 33%;
+    }
+    .contImage2 {
+        justify-content: flex-end;
+    }
+}

@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import './Header.css';
-import Dropdown2 from './dropdown/Dropdown2.jsx';
+import '../Header.css';
+import MenuResponsive from '../menuResponsive/MenuResponsive.jsx';
+import Dropdown2 from '../dropdown/Dropdown2.jsx';
 
 class HeaderTop extends Component {
     render() {
         return (
             <div className='contenaire'>
+                <MenuResponsive/>
                 <div className='contImage'>
                     <img className='imgHeader' src='https://d13yacurqjgara.cloudfront.net/assets/logo-small-4612353cefa78dfe35ba5e8e9d35da9f9305a3a516ef9675b5c37004c5862b6d.png'/>
                 </div>
@@ -30,8 +32,8 @@ class HeaderTop extends Component {
                 </ul>
                 <ul className='contImage2'>
                     <li>Sign up</li>
-                    <li>Sign in</li>
-                    <input placeholder="Search "></input>
+                    <li className='none'>Sign in</li>
+                    <input placeholder="Search " className='none'></input>
                 </ul>
             </div>
         )
