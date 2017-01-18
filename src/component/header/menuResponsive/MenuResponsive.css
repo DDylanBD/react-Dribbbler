@@ -1,13 +1,30 @@
-.menu {
+.MenuResponsive {
     display: none;
+    cursor: pointer;
+
 }
 
+.container-menu {
+    height: 48%;
+    width: 100%;
+    position: absolute;
+    top: 55px;
+    background: rgba(47, 47, 47, 0.98);
+    z-index: 9999;
+}
+.imgMenuResponsive {
+padding-left: 20px;
+}
+.inputMenu {
+    width: 97%;
+height: 35px;
+}
 @media screen and (max-width: 857px) {
-    .menu {
+    .MenuResponsive {
         display: block;
         width: 33%;
     }
-    .MenuResponsive {
+    .menu {
         padding-left: 10px;
     }
 }

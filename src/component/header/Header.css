@@ -26,8 +26,8 @@ input {
 }
 
 .contImage {
-  height: 32%;
-  width: 11%;
+    height: 32%;
+    width: 11%;
     display: flex;
     justify-content: center;
 }
@@ -127,7 +127,8 @@ h1 strong {
     display: none;
     position: absolute;
     width: 200px;
-    margin: 18px 0 0 -93px;
+    height: 123px;
+    margin: 92px 0 0 -10px;
     padding: 6px 0 10px 0;
     font-size: 14px;
     border-radius: 4px;
