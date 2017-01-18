@@ -21,7 +21,7 @@ class Modal extends Component {
               {this.state.isToggleOn ? <a className='openModal' onClick={this.handleClick}>{this.props.overlay}</a> :
                 <div id="overlay">
                     <div className='modal'>
-                        <a href="#noWhere" onClick={this.handleClick}>X</a>
+                        <a href="#" className='close' onClick={this.handleClick}>X</a>
                         <div className='modal-content'>
                             <div className='profilModal'>
                                 <img className='miniImgModal' src={this.props.miniImgModal} />
