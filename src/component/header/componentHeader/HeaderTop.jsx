@@ -28,7 +28,7 @@ class HeaderTop extends Component {
                         <Dropdown2 drop1='All' drop2='Remote / Anywhere' drop3='Teams Hiring' drop4='Post a Job'/>
                     </li>
                     <li><img src='https://d13yacurqjgara.cloudfront.net/assets/icon-more-dots-8624bddd5cc1950979b7c8dc571cf95d0e314600a9f8e43d99a17b57877808b6.png'/>
-                        <Dropdown2 drop1='About' drop2='Shop' drop3='Support' drop4='Buckets' drop5='Colors' drop6='Tags' drop7='Training' drop8='Twitter' drop9='Facebook' drop10='Integrations'/>
+                        <Dropdown2 className='dropdownAbout' drop1='About' drop2='Shop' drop3='Support' drop4='Buckets' drop5='Colors' drop6='Tags' drop7='Training' drop8='Twitter' drop9='Facebook' drop10='Integrations'/>
                     </li>
                 </ul>
                 <ul className='contImage2'>

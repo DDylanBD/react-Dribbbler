@@ -78,19 +78,26 @@
     z-index: 1000;
     color: black;
 }
+
 .modalOnclick {
     width: 100%;
     height: 50px;
     display: flex;
 }
+
 .modalOnclick a {
     color: black;
     cursor: pointer;
 }
 
 .openModal {
-width: 100%;
+    width: 100%;
 }
-.close{
-    
+
+.modalOnclick a.close {
+    position: relative;
+    bottom: 247px;
+    font-size: 24px;
+    color: grey;
+    right: 20px;
 }

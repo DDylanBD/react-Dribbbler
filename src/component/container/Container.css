@@ -41,6 +41,7 @@
 }
 
 .coeur {
+  cursor: pointer;
     color: #aaa;
     padding-left: 15px;
     background-repeat: no-repeat;
