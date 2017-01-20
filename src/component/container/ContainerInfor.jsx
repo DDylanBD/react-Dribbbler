@@ -38,7 +38,7 @@ class ContainerInfor extends Component {
                     <li>
                         <a className='coeur' onClick={this.handleClick}>{this.state.isToggleOn
                                 ? this.props.infor3
-                                : parseInt(this.props.infor3) +1}</a>
+                                : +this.props.infor3 +1}</a>
                     </li>
                 </ul>
                 <img style={stylesImg} className="informationImg" src={this.props.imgIcon}/>
