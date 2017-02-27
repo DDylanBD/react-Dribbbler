@@ -29,7 +29,7 @@ class ContainerInfor extends Component {
                     <strong>{this.props.titreDescription}</strong>
                     <span style={styles}>
                         {this.props.description}
-                        <Modal overlay={this.props.overlay} h1Modal={this.props.h1Modal} h3Modal={this.props.h3Modal} imgModal={this.props.imgModal} views={this.props.views} miniImgModal={this.props.miniImgModal}/></span>
+                        <Modal overlay={this.props.overlay} h1Modal={this.props.h1Modal} h3Modal={this.props.h3Modal} imgModal={this.props.imgModal} views={this.props.views} miniImgModal={this.props.miniImgModal} likeModal={this.props.likeModal}/></span>
                 </span>
                 <img className='imgazer' src={this.props.img}/>
                 <ul className='InforGrid liste'>
